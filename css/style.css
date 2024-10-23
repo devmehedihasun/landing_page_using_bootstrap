@@ -1,0 +1,81 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.nav-item a{
+    color: #18191F;
+}
+
+.banner-content h1{
+    font-size: 64px;
+    line-height: 75px;
+    font-family: "ïnter", sans-serif;
+    font-weight: 700;
+}
+
+.banner-content h1 span{
+    color: #4CAF4F;
+}
+
+.banner-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+section.container-fluid.py-lg-5.py-sm-4.py-3 {
+    height: 80vh;
+    width: auto;
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-client {
+    background-color: #ffffff; /* Light background to make logos stand out */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-client h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.our-client .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-area{
+    gap: 100px;
+}
+
+.logo-area .slide img {
+    max-width: 400px;
+    max-height: 100px;
+    object-fit: contain;
+    filter: grayscale(100%); /* Optional: Greyscale effect for logos */
+    transition: filter 0.3s ease;
+}
+
+.logo-area .slide img:hover {
+    filter: grayscale(0); /* Restores color on hover */
+}
+
+.slider {
+    display: flex;
+    gap: 80px;
+}
+
+
+.counterSection h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
