@@ -117,3 +117,56 @@ text-align: center;
     font-size: 18px;
     text-align: center;
 }
+
+.page-6{
+    background-color: #F5F7FA;
+    padding: 64px 144px;
+}
+
+
+.page-6-left h2{
+    font-size: 36px;
+    color: #4D4D4D;
+    line-height: 44px;
+    font-weight: 600;
+}
+.page-6-left .tx{
+    color: #4CAF4F;
+}
+
+
+.page-6-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.page-6-right h2{
+    font-size: 28px;
+    color: #4D4D4D;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.page-6-right .xxt{
+    color: #717171;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.page-6-child-1 img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    padding-bottom: 40px;
+}
+
+.page-6-child-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
